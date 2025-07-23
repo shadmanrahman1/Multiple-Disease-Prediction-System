@@ -5,17 +5,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(
-    open("diabetes_trained_model.sav", "rb")
-)
+diabetes_model = pickle.load(open("diabetes_trained_model.sav", "rb"))
 
-heart_model = pickle.load(
-    open("heart_trained_model.sav", "rb")
-)
+heart_model = pickle.load(open("heart_trained_model.sav", "rb"))
 
-parkinson_model = pickle.load(
-    open("parkinson_trained_model.sav", "rb")
-)
+parkinson_model = pickle.load(open("parkinson_trained_model.sav", "rb"))
 
 # sidebar
 with st.sidebar:
@@ -170,7 +164,7 @@ elif (selected) == "Parkinson Prediction":
     with col3:
         MDVP_Flo_Hz = st.text_input("MDVP:Flo(Hz)")
     with col4:
-        pass # Empty column for spacing
+        pass  # Empty column for spacing
     st.divider()
 
     # Jitter Section
@@ -189,7 +183,7 @@ elif (selected) == "Parkinson Prediction":
     with col1:
         Jitter_DDP = st.text_input("Jitter:DDP")
     with col2:
-        pass # Fill remaining columns
+        pass  # Fill remaining columns
     with col3:
         pass
     with col4:
