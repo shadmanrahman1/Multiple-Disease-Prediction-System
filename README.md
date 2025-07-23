@@ -153,10 +153,6 @@ Each model was trained using:
 - **Model Persistence**: Pickle
 - **Development**: Jupyter Notebooks
 
-## 📱 Screenshots
-
-*Add screenshots of your application here*
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -171,23 +167,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🎯 Future Enhancements
-
-- [ ] Add more disease prediction modules
-- [ ] Implement user authentication and history tracking
-- [ ] Add data visualization dashboards
-- [ ] Deploy to cloud platforms (Heroku, AWS, GCP)
-- [ ] Implement API endpoints for integration
-- [ ] Add mobile app version
-- [ ] Include confidence intervals for predictions
-- [ ] Add model explainability features
-
-## 📞 Contact
-
-**Your Name** - your.email@example.com
-
-Project Link: [https://github.com/yourusername/Multiple_Disease_prediction](https://github.com/yourusername/Multiple_Disease_prediction)
 
 ## 🙏 Acknowledgments
 
